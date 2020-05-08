@@ -1,0 +1,45 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #eee;
+  color: #222;
+}
+
+h1 {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 65px;
+}
+
+h3 {
+  font-family: 'Bungee Inline', cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  border: 2px black solid;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+#button {
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 16px;
+  transition: 0.5s ease-out;
+}
+
+#button:hover {
+  color: #fff;
+  background-color: black;
+  border-color: grey;
+  transform: scale(1.1);
+}
